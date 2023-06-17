@@ -25,9 +25,17 @@
     <div class="parallax-content baner-content" id="home">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8  offset-lg-2">
-                    <h3 class="mt-5"><font color="white" style="font-family:verdana;" style="font-size:300%;"> Real Time Emotion Detection</font></h3>
-                    <img src="{{ url_for('video_feed') }}" width="100%">
+                <div class="col-lg-8 offset-lg-2 d-grid justify-content-center text-center">
+                    <h3 class="mt-5"><font color="black" style="font-family:verdana;" style="font-size:300%;"> Real Time Emotion Detection</font></h3>
+                    <img src="{{ url_for('video_feed') }}" width="80%">
+                </div>
+            </div>
+
+            <br>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 d-grid justify-content-center text-center">
+                    <button type="button" class="btn btn-primary" style="margin-right: 2cm;">Start</button>
+                    <button type="button" class="btn btn-danger">Stop</button>
                 </div>
             </div>
         </div>
